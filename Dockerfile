@@ -8,3 +8,4 @@ ARG PACKAGES="systemd libpam-systemd wget openssh-server git neovim python3-neov
 RUN apt update && \
     apt upgrade && \
     apt install -y $PACKAGES
+
