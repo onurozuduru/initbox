@@ -6,6 +6,6 @@ LABEL com.github.containers.toolbox="true" \
 
 ARG PACKAGES="systemd libpam-systemd wget openssh-server git neovim python3-neovim tmux fzf ripgrep"
 RUN apt update && \
-    apt upgrade && \
+    apt upgrade -y && \
     apt install -y $PACKAGES
 
