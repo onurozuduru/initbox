@@ -17,4 +17,3 @@ RUN export TMUX_PLUGIN_MANAGER_PATH="/tmux/plugins" && \
     git clone https://github.com/tmux-plugins/tpm /tmux/plugins/tpm && \
     /bin/bash /tmux/plugins/tpm/scripts/install_plugins.sh
 
-
