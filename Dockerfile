@@ -4,7 +4,7 @@ LABEL com.github.containers.toolbox="true" \
     usage="Image for distrobox with init system additions" \
     summary="Development environment with systemd"
 
-ARG PACKAGES="systemd libpam-systemd wget openssh-server git git-lfs neovim python3-neovim tmux ripgrep exa xsel"
+ARG PACKAGES="systemd libpam-systemd wget openssh-server git git-lfs neovim python3-neovim tmux ripgrep curl exa xsel"
 RUN apt update && \
     apt upgrade -y && \
     apt install -y $PACKAGES && \
